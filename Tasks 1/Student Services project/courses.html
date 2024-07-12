@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Courses</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="Lib/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <link
+            rel="shortcut icon"
+            href="https://innotech.com.eg/wp-content/uploads/2017/07/favicon-1.png"
+            type="image/x-icon"
+        />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img
+                        src="https://innotech.com.eg/wp-content/uploads/2017/07/logo.png"
+                        alt="INNOTECH image"
+                    />
+                </a>
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="register.html" class="nav-link">Register</a>
+                    <a href="courses.html" class="nav-link active">Courses</a>
+                    <a href="active-course.html" class="nav-link"
+                        >Active Course</a
+                    >
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <h2 class="bg-primary text-white text-center my-2">
+                    Register Now
+                </h2>
+                <form>
+                    <div class="form-group">
+                        <label for="courseName">Course Name:</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="courseName"
+                            name="courseName"
+                            placeholder="Enter course name"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="courseCode">Course Code:</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="courseCode"
+                            name="courseCode"
+                            placeholder="Enter course code"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="instructor">Instructor:</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="instructor"
+                            name="instructor"
+                            placeholder="Enter instructor's name"
+                            required
+                        />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="start-time">Start Time:</label>
+                        <input
+                            type="date"
+                            class="form-control"
+                            id="start-time"
+                            name="start-time"
+                            required
+                        />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary my-2">
+                        Enroll
+                    </button>
+                </form>
+            </div>
+        </div>
+        <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+            <div class="container">
+                <p class="mb-0">
+                    &copy; 2024 InnoTech University. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
