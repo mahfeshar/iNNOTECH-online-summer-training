@@ -25,3 +25,4 @@ iNNOTECH online summer training program 2024 for the .NET Full Stack Web Develop
 ## Tasks
 
 1. [Tasks 1 (HTML-CSS-Bootstrap & Intro to C#)](https://github.com/mahfeshar/iNNOTECH-online-summer-training/tree/main/Tasks%201)
+2. [Tasks 2 (Class - Tuple and more)](https://github.com/mahfeshar/iNNOTECH-online-summer-training/tree/main/Tasks_2)
